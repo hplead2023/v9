@@ -268,6 +268,22 @@ MD5sum: e55286a7f39503142579f145fe60a4ed
 Pre-Depends: firmware (>= 4.0), apt | apt7, findutils, shell-cmds
 Conflicts: org.altervista.exilecom.icleaner
 
+Package: com.pulandres.safestdn
+Name: SafeShutdown Cracked
+Version: 1.60
+Architecture: iphoneos-arm
+Author: Pulandres
+Description: Giả lập tắt nguồn để không mất Jailbreak!.
+Maintainer: Pulandres
+Depiction: https://repo.pulandres.me/index.php?pid=1116
+SileoDepiction: https://repo.pulandres.me/sileo.php?pid=1116
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Section: Tweaks
+Filename: ./Debs/SafeShutdown1.60.deb
+Size: 9326806
+MD5sum: 029c100d02eb4aedff1d1dcae38032f6
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, net.limneos.libbulletin, ws.hbang.common (>= 1.11)
+
 Package: applist
 Name: AppList
 Version: 1.5.15~beta1
