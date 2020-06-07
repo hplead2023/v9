@@ -1,4 +1,4 @@
-Package: com.kidsautopro.kidsdaemon
+Package: com.kidsautopro.kidsauto
 Name: KidsAutoPro v9
 Version: 9.0
 Architecture: iphoneos-arm
@@ -8,9 +8,9 @@ Maintainer: Developer by Tuệ Mobi <https://www.facebook.com/kidsauto91>
 Section: System
 Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
 Filename: ./Debs/KidsAutoProv9.0.deb
-Size: 374604
-MD5sum: acb1f9afd320105cccc93c1c2fef9b67
-Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.pulandres.safestdn, com.kidsautopro.kidssupport
+Size: 374362
+MD5sum: ad85168d3369b9653560c421b1880af0
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
 Package: com.kidsautopro.kidssupport
@@ -22,9 +22,9 @@ Maintainer: Dev by Tuệ Mobi
 Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Section: Utilities
 Icon: file:///Applications/kidsauto.app/AppIcon.png
-Filename: ./Debs/KidsSupport.deb
-Size: 846664
-MD5sum: ecfb9e508602e33154121156ad0209f7
+Filename: ./Debs/KidsSupport1.0.deb
+Size: 846660
+MD5sum: e173b8a60d1567694b7143c511915edd
 
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAutoSetting
@@ -33,10 +33,10 @@ Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro!!!
 Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Maintainer: Dev by Tuệ Mobi
-Section: Utilities
-Filename: ./Debs/KidsAutoSetting.deb
-Size: 47436
-MD5sum: 11a04d4712997237c70b852ce12b7337
+Section: Tweaks
+Filename: ./Debs/KidsSetting1.0.deb
+Size: 48346
+MD5sum: 2d3f465f2ee035a61b6a66e976307aca
 Depends: mobilesubstrate, ws.hbang.common
 
 Package: com.kidsauto.jailbreakbypass
