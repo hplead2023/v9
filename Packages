@@ -15,28 +15,28 @@ Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locatio
 
 Package: com.kidsautopro.kidssupport
 Name: KidsSupport
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro!!!
 Maintainer: Dev by Tuệ Mobi
 Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Section: Utilities
 Icon: file:///Applications/kidsauto.app/AppIcon.png
-Filename: ./Debs/KidsSupport1.0.deb
-Size: 846660
-MD5sum: e173b8a60d1567694b7143c511915edd
+Filename: ./Debs/KidsSupport1.1.deb
+Size: 846726
+MD5sum: 592c59be45a65215455265990b779934
 
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAutoSetting
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro!!!
 Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Maintainer: Dev by Tuệ Mobi
 Section: Tweaks
-Filename: ./Debs/KidsSetting1.0.deb
-Size: 48346
-MD5sum: 2d3f465f2ee035a61b6a66e976307aca
+Filename: ./Debs/KidsSetting1.1.deb
+Size: 48744
+MD5sum: 2c319eb963acfd6927b4cf58cf2825c4
 Depends: mobilesubstrate, ws.hbang.common
 
 Package: com.kidsauto.jailbreakbypass
