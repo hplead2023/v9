@@ -13,6 +13,21 @@ MD5sum: ad85168d3369b9653560c421b1880af0
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAutoPro v9
+Version: 9.0.1
+Architecture: iphoneos-arm
+Description: KidsAuto Pro, Hỗ trợ từ iOS 11 -> 12.2 và 12.4, 12.3-12.3.1 + all iOS 13.x Jailbreak Checkra1n
+Author: Developer by Tuệ Mobi <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by Tuệ Mobi <https://www.facebook.com/kidsauto91>
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAutoProv901.deb
+Size: 374352
+MD5sum: 34e59a32feef72074a4ca5ca25349437
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
 Package: com.kidsautopro.kidssupport
 Name: KidsSupport
 Version: 1.1
@@ -39,62 +54,74 @@ Size: 48744
 MD5sum: 2c319eb963acfd6927b4cf58cf2825c4
 Depends: mobilesubstrate, ws.hbang.common
 
-Package: com.kidsauto.jailbreakbypass
+Package: com.kidsauto.addon
+Name: KidsAuto Addon
+Version: 1.0-3
+Architecture: iphoneos-arm
+Description: Chặn phát hiện Fake Proxy!!!
+Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: ./Debs/KidsAddon.deb
+Size: 54632
+MD5sum: e7b9b4df03b3c31b367bc32708fa8ead
+
+Package: com.kidsprivate.jailbreakbypass
 Name: JailBreakByPass
 Version: 1.3.1
 Architecture: iphoneos-arm
-Maintainer: Dev by Tuệ
-Section: Tweaks
-Filename: ./Debs/JailbreakByPass1.3.deb
-Size: 15658
-MD5sum: 77941ab73558f25d07ebffc7ae1744d0
+Description: Chặn phát hiện Jailbreaks (Tự động kích hoạt)
+Maintainer: Dev by Tuệ Mobi
+Section: Tweaks ByPassJB
+Filename: ./Debs/JBByPass131.deb
+Size: 15680
+MD5sum: aa9689513439cb33ac8be16d0168ec45
 Depends: mobilesubstrate
-Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
+
+Package: kr.xsf1re.flyjb
+Name: FlyJB_KidsByPass
+Version: 0.2.5.3
+Architecture: iphoneos-arm
+Description: Chặn phát hiện Jailbreaks và chống Văng App (có 3 Option trong Setting iPhone) !!!
+Maintainer: XsF1re
+Author: XsF1re
+Section: Tweaks ByPassJB
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Filename: ./Debs/FlyJB_KidsByPass0253.deb
+Size: 629640
+MD5sum: 4c3823154f80ca05b9fc7ee93e93cf17
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Conflicts: com.rpgfarm.a-bypass, com.kidsauto.kidsbypass, com.ryleyangus.liberty, com.kidsauto.xcon, com.kidsauto.jailprotect
 
 Package: com.ryleyangus.libertylite
 Name: Liberty Lite
 Architecture: iphoneos-arm
 Version: 0.2.10
-Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Description: Chặn phát hiện Jailbreaks và Văng App!!!
 Maintainer: Ryley Angus
 Author: Ryley Angus
-Section: Tweaks
+Section: Tweaks ByPassJB
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-Filename: ./Debs/LibertyLite8.deb
-Size: 78350
-MD5sum: 94702173d002644394b5e245a2479963
+Filename: ./Debs/LibertyLite0210.deb
+Size: 78260
+MD5sum: 5f0365ce23a39e0c9cd7156cc8708779
 Depends: mobilesubstrate,preferenceloader,applist,firmware (>= 11.0)
-Conflicts: com.ryleyangus.liberty
-
-Package: com.ryleyangus.libertylite
-Name: Liberty Lite (Beta)
-Architecture: iphoneos-arm
-Version: 0.2.11
-Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported. 32-bit support is currently disabled.
-Maintainer: Ryley Angus
-Author: Ryley Angus
-Section: Tweaks
-Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-Filename: ./Debs/LibertyLite0211.deb
-Size: 53542
-MD5sum: 4f1f62459646a035ad95a1bce4de055e
-Depends: mobilesubstrate,preferenceloader,applist,firmware (>= 11.0)
-Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Conflicts: com.ryleyangus.liberty,com.kidsauto.xcon
 
 Package: com.ryleyangus.libertylite
 Name: Liberty Lite (Beta)
 Architecture: iphoneos-arm
 Version: 0.2.12
-Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported. 32-bit support is currently disabled.
+Description: Chặn phát hiện Jailbreaks và Văng App!!!
 Maintainer: Ryley Angus
 Author: Ryley Angus
-Section: Tweaks
+Section: Tweaks ByPassJB
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Filename: ./Debs/LibertyLite0212.deb
-Size: 82634
-MD5sum: f1bbbac7c2eade5cdb5e6d1ee5120aa8
+Size: 82574
+MD5sum: 368c266b03772e80a5bec3a13ced5b1b
 Depends: mobilesubstrate,preferenceloader,applist
-Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Conflicts: com.ryleyangus.liberty, com.kidsauto.xcon
 
 Package: co.azozzalfiras.tweaksmanager
 Name: Tweaks Manager
@@ -102,121 +129,60 @@ Version: 1.2-1
 Architecture: iphoneos-arm
 Author: Azozz ALFiras
 Maintainer: Azozz ALFiras
-Description: Tweaks Manager for disable all tweaks from app or hide jailbreak
-Section: Tweaks
-Filename: ./Debs/TweakManager.deb
-Size: 747714
-MD5sum: b88a3ac6fa32462dc40a01e64f876df9
+Description: TweaksManager sẽ Disable all Tweaks cho App hoặc Ẩn Jailbreaks !!!
+Section: Tweaks ByPassJB
+Filename: ./Debs/TweaksManager.deb
+Size: 747742
+MD5sum: 81996f5af22448a7e1c46a0473a1d637
 Depends: mobilesubstrate, ws.hbang.common
 
 Package: com.kidsauto.xcon
 Name: xCon38
 Version: 38
 Architecture: iphoneos-arm
-Author: n00neimp0rtant <n00neimp0rtant_cydia@icloud.com>
-Depiction: http://modmyi.com/info/xcon.d.php
-Priority: extra
-Description: xCon is a project aimed to be a one-stop solution to bypassing jailbreak detection in App Store applications.
-Homepage: http://modmyi.com/info/xcon.php
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
-Section: Tweaks
-Filename: ./Debs/xcon38.deb
-Size: 28000
-MD5sum: b7d1c2b47288cd7c672f4093bde5e55d
+Description: Chặn phát hiện Jailbreaks (Tự động kích hoạt)
+Maintainer: Lunatik
+Author: Lunatik
+Section: Tweaks ByPassJB
+Filename: ./Debs/xCon38.deb
+Size: 27990
+MD5sum: d219fea37d9834a6cf8f2985133bbf8e
+Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
 Depends: mobilesubstrate
-Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner, co.azozzalfiras.tweaksmanager, com.ryleyangus.libertylite, kr.xsf1re.flyjb, com.rpgfarm.a-bypass
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 
 Package: com.kidsauto.xcon
 Name: xCon42
 Version: 42~beta3
 Architecture: iphoneos-arm
-Description: bypass anti-jailbreak protection
+Description: Chặn phát hiện Jailbreaks (Tự động kích hoạt)
 Maintainer: Lunatik
 Author: Lunatik
-Section: Tweaks
-Filename: ./Debs/xcon42_b3.deb
-Size: 136222
-MD5sum: d55e1432b2f7133b1bd12fae1acd37a8
+Section: Tweaks ByPassJB
+Filename: ./Debs/xCon42b3.deb
+Size: 136336
+MD5sum: 284d57e313a2daaceb4887b976a46a42
 Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
 Depends: mobilesubstrate
-Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner, co.azozzalfiras.tweaksmanager, com.ryleyangus.libertylite, kr.xsf1re.flyjb, com.rpgfarm.a-bypass
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 
 Package: com.kidsauto.xcon
 Name: xCon42
 Version: 42~beta4
 Architecture: iphoneos-arm
-Description: bypass anti-jailbreak protection
+Description: Chặn phát hiện Jailbreaks (Tự động kích hoạt)
 Maintainer: Lunatik
 Author: Lunatik
-Section: Tweaks
-Filename: ./Debs/xcon42.deb
-Size: 136610
-MD5sum: 8780b83da6b21cb86279855cf95e13f5
+Section: Tweaks ByPassJB
+Filename: ./Debs/xCon42b4.deb
+Size: 136730
+MD5sum: 1ca036fad7a25c1f51a5fe19db7ef262
 Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
 Depends: mobilesubstrate
-Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner, co.azozzalfiras.tweaksmanager, com.ryleyangus.libertylite, kr.xsf1re.flyjb, com.rpgfarm.a-bypass
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
-
-Package: com.kidsauto.kidsbypass
-Name: KidsByPass
-Version: 2.17
-Architecture: iphoneos-arm
-Description: By Pass Jailbreak Detect
-Maintainer: Internet
-Author: Internet
-Section: Tweaks
-Filename: ./Debs/KidsByPass2.17.deb
-Size: 185508
-MD5sum: 0cc7919af8c8275c0c96898a5e90fff0
-Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common, com.kidsauto.kidsdaemon (>= 8.3)
-Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite, com.kidsauto.xcon, com.kidsauto.jailprotect, com.kidsauto.kidsdaemon (<< 8.3)
-
-Package: kr.xsf1re.flyjb
-Name: FlyJB_KidsByPass
-Version: 0.2.2~beta2
-Architecture: iphoneos-arm
-Description: Chặn phát hiện Jailbreak!!!
-Maintainer: XsF1re
-Author: XsF1re
-Section: Tweaks
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Filename: ./Debs/FlyJB_KidsByPass0.2.2b2.deb
-Size: 220964
-MD5sum: 62b3da15c62b8743f42c7b500d8c057e
-Depends: mobilesubstrate, applist (>=1.5.15~beta1), preferenceloader, com.rpetrich.rocketbootstrap (>=1.0.7~beta3), ws.hbang.common
-Conflicts: com.rpgfarm.a-bypass, com.kidsauto.kidsbypass, com.ryleyangus.liberty, com.ryleyangus.libertylite, com.kidsauto.xcon, com.kidsauto.jailprotect
-
-Package: kr.xsf1re.flyjb
-Name: FlyJB_KidsByPass
-Version: 0.2.3~beta5
-Architecture: iphoneos-arm
-Description: Chặn phát hiện Jailbreak!!!
-Maintainer: XsF1re
-Author: XsF1re
-Section: Tweaks
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Filename: ./Debs/FlyJB_KidsByPass0.2.3b5.deb
-Size: 561634
-MD5sum: fe4d4e2eff4ec2e8937b0a9e1e22db40
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader (>= 2.2.4), com.rpetrich.rocketbootstrap (>=1.0.7~beta3), ws.hbang.common
-Conflicts: com.rpgfarm.a-bypass, com.kidsauto.kidsbypass, com.ryleyangus.liberty, com.ryleyangus.libertylite, com.kidsauto.xcon, com.kidsauto.jailprotect
-
-Package: com.kidsauto.jailprotect
-Name: JailProtect 0.0.4
-Version: 0.0~beta4a
-Architecture: iphoneos-arm
-Description: Ngăn chặn phát hiện Jailbreak, tương tự Liberty Lite
-Homepage: http://twitter.com/ijulioverne
-Maintainer: Julio
-Author: julioverne
-Section: Tweaks
-Filename: ./Debs/JailProtect.deb
-Size: 53126
-MD5sum: 97aebf5fe2d5689858eb5bb6e1a2ddcf
-Depends: mobilesubstrate, preferenceloader
 
 Package: me.jjolano.shadow
 Name: Shadow
@@ -228,26 +194,27 @@ Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.shadow.html
 SileoDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
 ModernDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
 Icon: https://ios.jjolano.me/assets/me.jjolano.shadow/icon.png
-Description: A lightweight general Jailbreak Detection bypass.
+Description: Chặn phát hiện Jailbreaks và Văng App!!!
 Homepage: https://shuga.co/
-Section: Tweaks
-Filename: ./Debs/Shadow2.0.2.deb
-Size: 250068
-MD5sum: 247488a393bb3504b209a1d5696b95a5
+Section: Tweaks ByPassJB
+Filename: ./Debs/Shadow2020.deb
+Size: 250102
+MD5sum: 00692637dac70b6bb50adce4e739cdb5
 Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
 
 Package: com.rpgfarm.a-bypass
 Name: A-Bypass
-Version: 1.0.4
+Version: 1.0.7
 Architecture: iphoneos-arm
-Description: Chặn phát hiện Jailbreak - Root!
+Description: Chặn phát hiện Jailbreaks tốt hơn với các App từ Korea!
 Maintainer: Baw Appie <pp121324@gmail.com>
 Author: Baw Appie <pp121324@gmail.com>
-Section: Tweaks
-Filename: ./Debs/A-BypassJailbreak.deb
-Size: 48878
-MD5sum: 87cb38d2722566e407b2ae00f1225f90
-Depends: mobilesubstrate, applist
+Section: Tweaks ByPassJB
+Filename: ./Debs/a-Bypass.deb
+Size: 54150
+MD5sum: a8b4f8f5150cfddede715665194855cc
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Conflicts: com.kidsauto.xcon, co.azozzalfiras.tweaksmanager, kr.xsf1re.flyjb
 
 Package: com.kidsauto.icleaner
 Name: iCleaner
@@ -318,3 +285,23 @@ Filename: ./Debs/RocketBoostrap107b3.deb
 Size: 67590
 MD5sum: bfb5b785c9a80226d46362bb6ca952b0
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+
+Package: com.matchstic.reprovision
+Name: ReProvision
+Version: 0.5.2~EOL
+Description: Tự động gia hạn chứng chỉ Application!
+Section: System
+Depends: firmware (>= 9.0)
+Priority: optional
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: Matt Clarke <matt@incendo.ws>
+Homepage: https://github.com/Matchstic/Extender-Installer
+Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Filename: ./Debs/Reprovision052.deb
+Size: 14391760
+MD5sum: 05f80962fb86d0541a0c1367b92d87b7
