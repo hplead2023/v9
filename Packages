@@ -54,6 +54,19 @@ Size: 48744
 MD5sum: 2c319eb963acfd6927b4cf58cf2825c4
 Depends: mobilesubstrate, ws.hbang.common
 
+Package: com.kidsautopro.kidsautosetting
+Name: KidsAutoSetting
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Utilities to support KidsAuto Pro!!!
+Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
+Maintainer: Dev by Tuệ Mobi
+Section: Tweaks
+Filename: ./Debs/KidsSetting1.2.deb
+Size: 48344
+MD5sum: 6c06ed98dd226392d282c72e6a81dcec
+Depends: mobilesubstrate, ws.hbang.commono
+
 Package: com.kidsauto.addon
 Name: KidsAuto Addon
 Version: 1.0-3
