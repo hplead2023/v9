@@ -65,7 +65,7 @@ Section: Tweaks
 Filename: ./Debs/KidsSetting1.2.deb
 Size: 48344
 MD5sum: 6c06ed98dd226392d282c72e6a81dcec
-Depends: mobilesubstrate, ws.hbang.commono
+Depends: mobilesubstrate, ws.hbang.common
 
 Package: com.kidsauto.addon
 Name: KidsAuto Addon
