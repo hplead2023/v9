@@ -63,8 +63,8 @@ Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Maintainer: Dev by Tuệ Mobi
 Section: Tweaks
 Filename: ./Debs/KidsSetting1.2.deb
-Size: 48344
-MD5sum: 6c06ed98dd226392d282c72e6a81dcec
+Size: 48292
+MD5sum: 8d4b5b62eb199c66df15a5fc27e26c1e
 Depends: mobilesubstrate, ws.hbang.common
 
 Package: com.kidsauto.addon
