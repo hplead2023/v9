@@ -1,20 +1,5 @@
 Package: com.kidsautopro.kidsauto
 Name: KidsAutoPro v9
-Version: 9.0
-Architecture: iphoneos-arm
-Description: KidsAuto Pro, Hỗ trợ từ iOS 11 -> 12.2 và 12.4, 12.3-12.3.1 + all iOS 13.x Jailbreak Checkra1n
-Author: Developer by Tuệ Mobi <https://www.facebook.com/kidsauto91>
-Maintainer: Developer by Tuệ Mobi <https://www.facebook.com/kidsauto91>
-Section: System
-Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsAutoProv9.0.deb
-Size: 374362
-MD5sum: ad85168d3369b9653560c421b1880af0
-Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist
-Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
-
-Package: com.kidsautopro.kidsauto
-Name: KidsAutoPro v9
 Version: 9.0.1
 Architecture: iphoneos-arm
 Description: KidsAuto Pro, Hỗ trợ từ iOS 11 -> 12.2 và 12.4, 12.3-12.3.1 + all iOS 13.x Jailbreak Checkra1n
@@ -26,6 +11,21 @@ Filename: ./Debs/KidsAutoProv901.deb
 Size: 374352
 MD5sum: 34e59a32feef72074a4ca5ca25349437
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
+Package: com.kidsautopro.kidsauto
+Name: KidsAutoPro v9
+Version: 9.3.5-20
+Architecture: iphoneos-arm
+Description: KidsAuto Pro, Hỗ trợ từ iOS 11 -> 12.2 và 12.4, 12.3-12.3.1 + all iOS 13.x Jailbreak Checkra1n
+Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAutoPro935.deb
+Size: 619054
+MD5sum: 3aff99f5db291b1bef952782934a0482
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
 Package: com.kidsautopro.kidssupport
@@ -43,19 +43,6 @@ MD5sum: 592c59be45a65215455265990b779934
 
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAutoSetting
-Version: 1.1
-Architecture: iphoneos-arm
-Description: Utilities to support KidsAuto Pro!!!
-Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
-Maintainer: Dev by Tuệ Mobi
-Section: Tweaks
-Filename: ./Debs/KidsSetting1.1.deb
-Size: 48744
-MD5sum: 2c319eb963acfd6927b4cf58cf2825c4
-Depends: mobilesubstrate, ws.hbang.common
-
-Package: com.kidsautopro.kidsautosetting
-Name: KidsAutoSetting
 Version: 1.2
 Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro!!!
@@ -65,6 +52,19 @@ Section: Tweaks
 Filename: ./Debs/KidsSetting1.2.deb
 Size: 48292
 MD5sum: 8d4b5b62eb199c66df15a5fc27e26c1e
+Depends: mobilesubstrate, ws.hbang.common
+
+Package: com.kidsautopro.kidsautosetting
+Name: KidsAutoSetting
+Version: 1.2-20
+Architecture: iphoneos-arm
+Description: Utilities to support KidsAuto Pro!!!
+Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
+Maintainer: Dev by KidsAuto Team
+Section: Tweaks
+Filename: ./Debs/KidsSetting1220.deb
+Size: 61432
+MD5sum: 86789b8c155c4ec7584541f5fdb3db2b
 Depends: mobilesubstrate, ws.hbang.common
 
 Package: com.kidsauto.addon
