@@ -15,16 +15,16 @@ Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locatio
 
 Package: com.kidsautopro.kidsauto
 Name: KidsAutoPro v9
-Version: 9.3.5-20
+Version: 9.3.5-24
 Architecture: iphoneos-arm
 Description: KidsAuto Pro, Hỗ trợ từ iOS 11 -> 12.2 và 12.4, 12.3-12.3.1 + all iOS 13.x Jailbreak Checkra1n
 Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
 Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
 Section: System
 Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
-Filename: ./Debs/KidsAutoPro935.deb
-Size: 619054
-MD5sum: 3aff99f5db291b1bef952782934a0482
+Filename: ./Debs/KidsAutoPro935_24.deb
+Size: 618510
+MD5sum: f235c6adef037cb5364f558240628075
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
