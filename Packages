@@ -28,6 +28,37 @@ MD5sum: f235c6adef037cb5364f558240628075
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAutoPro v9
+Version: 9.3.5-33
+Architecture: iphoneos-arm
+Description: KidsAuto Pro Update 18/09/2020, Hỗ trợ từ iOS 11 -> 12.2 & 12.4 (Unc0ver) & All iOS Jailbreak by Checkra1n
+Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAuto_935.33.deb
+Size: 797946
+MD5sum: c48479fe6f2ced81cc12c66fbad15f22
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
+Package: com.kidsautopro.hookmob
+Name: KidsHook Support
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Tweak hỗ trợ Hook Info cho KidsAuto Pro (Optional)!
+Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Homepage: https://www.facebook.com/groups/1356112074493442/?ref=bookmarks
+Section: Tweaks
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsHookSupport.deb
+Size: 68260
+MD5sum: 5f59202fb2f735605153df9934969f7d
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.kidsautopro.kidsauto (<= 9.3.5-24)
+
 Package: com.kidsautopro.kidssupport
 Name: KidsSupport
 Version: 1.1
@@ -43,19 +74,6 @@ MD5sum: 592c59be45a65215455265990b779934
 
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAutoSetting
-Version: 1.2
-Architecture: iphoneos-arm
-Description: Utilities to support KidsAuto Pro!!!
-Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
-Maintainer: Dev by Tuệ Mobi
-Section: Tweaks
-Filename: ./Debs/KidsSetting1.2.deb
-Size: 48292
-MD5sum: 8d4b5b62eb199c66df15a5fc27e26c1e
-Depends: mobilesubstrate, ws.hbang.common
-
-Package: com.kidsautopro.kidsautosetting
-Name: KidsAutoSetting
 Version: 1.2-20
 Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro!!!
@@ -66,6 +84,20 @@ Filename: ./Debs/KidsSetting1220.deb
 Size: 61432
 MD5sum: 86789b8c155c4ec7584541f5fdb3db2b
 Depends: mobilesubstrate, ws.hbang.common
+
+Package: com.kidsautopro.kidsautosetting
+Name: KidsAutoSetting
+Version: 1.2-22
+Architecture: iphoneos-arm
+Description: Utilities to support KidsAuto Pro, Fixed SSL to Bugs App!!!
+Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
+Maintainer: Dev by KidsAuto Team
+Section: Tweaks
+Filename: ./Debs/KidsSetting1222.deb
+Size: 61566
+MD5sum: 32239ba95a760e208b81ab1136ee953e
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
 
 Package: com.kidsauto.addon
 Name: KidsAuto Addon
@@ -90,6 +122,21 @@ Filename: ./Debs/JBByPass131.deb
 Size: 15680
 MD5sum: aa9689513439cb33ac8be16d0168ec45
 Depends: mobilesubstrate
+
+Package: jp.akusio.kernbypass
+Name: KernBypass
+Version: 0.0.3
+Architecture: iphoneos-arm
+Description: Chặn phát hiện Jailbreaks và Giảm tỉ lệ Văng App (Sử dụng tương tự Liberty) !!!
+Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
+Maintainer: akusio
+Author: akusio
+Section: Tweaks ByPassJB
+Filename: ./Debs/Kernbypass_0.0.3.deb
+Size: 30262
+MD5sum: bb94bb80f7e821875224ecb4f8f8d117
+Depends: mobilesubstrate, applist, preferenceloader, firmware (>=12.0)
+Conflicts: com.rpgfarm.a-bypass, com.kidsauto.kidsbypass, com.kidsprivate.jailbreakbypass, com.ryleyangus.liberty, com.kidsauto.xcon, com.kidsauto.jailprotect, kr.xsf1re.flyjb
 
 Package: kr.xsf1re.flyjb
 Name: FlyJB_KidsByPass
