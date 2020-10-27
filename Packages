@@ -43,6 +43,21 @@ MD5sum: c48479fe6f2ced81cc12c66fbad15f22
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAutoPro v9
+Version: 9.3.5-61
+Architecture: iphoneos-arm
+Description: KidsAuto Pro Update 25/10/2020, Hỗ trợ từ iOS 11 -> 12.2 (Unc0ver) & 12.3 - 13.7 (Jailbreak by Checkra1n)
+Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: ./Debs/KidsAutoPro_9.3.5-61.deb
+Size: 919228
+MD5sum: 4c9965b9070e6d7a560e9cc54f2ad5b7
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
+
 Package: com.kidsautopro.hookmob
 Name: KidsHook Support
 Version: 1.0-1
