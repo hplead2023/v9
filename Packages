@@ -58,6 +58,21 @@ MD5sum: 4c9965b9070e6d7a560e9cc54f2ad5b7
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAutoPro v9
+Version: 9.3.5-116
+Architecture: iphoneos-arm
+Description: KidsAuto Pro Update 09/03/2020, Hỗ trợ từ iOS 11 -> 12.2 (JB Unc0ver) & 12.3 - 14.4 (JB Checkra1n)
+Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Filename: ./Debs/KidsAutoPro_9.4-116.deb
+Size: 932060
+MD5sum: d46e891546238ff6c7d24dfcd56629a7
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob
+
 Package: com.kidsautopro.hookmob
 Name: KidsHook Support
 Version: 1.0-1
@@ -86,19 +101,6 @@ Icon: file:///Applications/kidsauto.app/AppIcon.png
 Filename: ./Debs/KidsSupport1.1.deb
 Size: 846726
 MD5sum: 592c59be45a65215455265990b779934
-
-Package: com.kidsautopro.kidsautosetting
-Name: KidsAutoSetting
-Version: 1.2-20
-Architecture: iphoneos-arm
-Description: Utilities to support KidsAuto Pro!!!
-Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
-Maintainer: Dev by KidsAuto Team
-Section: Tweaks
-Filename: ./Debs/KidsSetting1220.deb
-Size: 61432
-MD5sum: 86789b8c155c4ec7584541f5fdb3db2b
-Depends: mobilesubstrate, ws.hbang.common
 
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAutoSetting
