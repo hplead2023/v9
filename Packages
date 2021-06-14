@@ -103,6 +103,21 @@ MD5sum: 50c703842f2a61896a4b2dca17fa2454
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAutoPro v9
+Version: 9.5.5-131
+Architecture: iphoneos-arm
+Description: KidsAuto Pro Update 04/04/2020, Hỗ trợ từ iOS 11 -> 12.2 (JB Unc0ver) & 12.3 - 14.5.1 (JB Checkra1n)
+Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Filename: ./Debs/KidsAutoProv935-131.deb
+Size: 918178
+MD5sum: 698458ec51c429a8d71a7b2952bd436c
+Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob
+
 Package: com.kidsautopro.hookmob
 Name: KidsHook Support
 Version: 1.0-1
@@ -199,6 +214,20 @@ Size: 629640
 MD5sum: 4c3823154f80ca05b9fc7ee93e93cf17
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
 Conflicts: com.rpgfarm.a-bypass, com.kidsauto.kidsbypass, com.ryleyangus.liberty, com.kidsauto.xcon, com.kidsauto.jailprotect
+
+Package: kr.xsf1re.flyjbx
+Name: FlyJB X
+Version: 1.2.5
+Architecture: iphoneos-arm
+Description: You can HIDE Doing jailbreak your iDevice.
+Maintainer: XsF1re
+Author: XsF1re
+Section: Tweaks
+Filename: ./Debs/kr.xsf1re.flyjbx_1.2.5.deb
+Size: 766132
+MD5sum: 050946345f372683c225b621789994f3
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb (<1.2.5)
 
 Package: com.ryleyangus.libertylite
 Name: Liberty Lite
@@ -357,41 +386,6 @@ Filename: ./Debs/SafeShutdown1.60.deb
 Size: 9326806
 MD5sum: 029c100d02eb4aedff1d1dcae38032f6
 Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, net.limneos.libbulletin, ws.hbang.common (>= 1.11)
-
-Package: applist
-Name: AppList
-Version: 1.5.15~beta1
-Architecture: iphoneos-arm
-dev: rpetrich
-Description: Allow extensions to read the list of installed apps
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Author: Ryan Petrich <rpetrich@gmail.com>
-Section: System
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Filename: ./Debs/Applist1.5.15b1.deb
-Size: 186234
-MD5sum: ae6c787fff1bed2b0e7373c65cc27400
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7), firmware (<<11.0)
-
-Package: com.rpetrich.rocketbootstrap
-Name: RocketBootstrap
-Version: 1.0.7~beta3
-Architecture: iphoneos-arm
-dev: rpetrich
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-Section: Tweaks
-Tag: purpose::extension, role::developer
-Filename: ./Debs/RocketBoostrap107b3.deb
-Size: 67590
-MD5sum: bfb5b785c9a80226d46362bb6ca952b0
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
 
 Package: com.matchstic.reprovision
 Name: ReProvision
